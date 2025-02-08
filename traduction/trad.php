@@ -1,18 +1,18 @@
 <?php
 if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
-    if (in_array($lang, ['en', 'fr', 'esp'])) {
+    if (in_array($lang, ['eng', 'fr', 'esp'])) {
         setcookie('lang', $lang, time() + (86400 * 30), '/'); 
     } else {
-        $lang = 'en';
+        $lang = 'eng';
     }
 } else if (isset($_COOKIE['lang'])) {
     $lang = $_COOKIE['lang'];
-    if (!in_array($lang, ['en', 'fr', 'esp'])) {
-        $lang = 'en';
+    if (!in_array($lang, ['eng', 'fr', 'esp'])) {
+        $lang = 'eng';
     }
 } else {
-    $lang = 'en';
+    $lang = 'eng';
 }
 
 require_once (dirname(__FILE__) . '/' . $lang . '.php');
