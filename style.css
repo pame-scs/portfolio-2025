@@ -6,13 +6,25 @@ body{
     background-color: #f5f5f5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-family: "Montserrat", serif;
     color: #020e18;
+    font-weight: normal;
+}
+
+h2{
+    font-family: "Open Sans", serif;
+    color: #020e18;
+    font-weight: normal;
 }
 
 p {
     font-family: "Open Sans", serif;
+    color: #020e18;
+}
+
+a {
+    font-family: "Montserrat", serif;
     color: #020e18;
 }
 
@@ -72,12 +84,34 @@ nav a {
     border: 2px solid #020e18;
     padding: 0.5em 1.5em;
     border-radius: 2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#landing a:hover {
+    background-color: #020e18;
+    color: white;
 }
 
 #landing img {
     border-radius: 3em;
     align-content: center;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
+}
+
+#landing h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+#landing h2 {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    margin: 0;
+}
+
+#landing p {
+    font-size: 16px;
+    padding: 0em 0 1.5em 0;
 }
