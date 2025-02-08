@@ -22,8 +22,8 @@
                 <h1>Pamela Castaneda</h1>
                 <h2><?php echo $TRAD["job"] ?></h2>
                 <p><?php echo $TRAD["about"] ?></p>
-                <a href=""><?php echo $TRAD["project-button"] ?></a>
-                <a href=""><?php echo $TRAD["contact-button"] ?></a>
+                <a href="" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
+                <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
             </section>
             <img src="assets/me-paris.jpg" alt="Pamela Castaneda smiling and posing in a street in Paris">
         </div>
