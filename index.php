@@ -27,5 +27,111 @@
             </section>
             <img src="assets/me-paris.jpg" alt="Pamela Castaneda smiling and posing in a street in Paris">
         </div>
+        <div id="skills">
+            <h1><?php echo $TRAD["skills-h1"] ?></h1>
+            <div class="skills-container">
+
+                <div class="skills">
+                    <h2><?php echo $TRAD["skills-h2-dev"] ?></h2>
+                    <div class="skill-item">
+                        <img src="assets/html5.png" alt="HTML5 logo">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/css3.png" alt="CSS3 logo">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/js.png" alt="JavaScript logo">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/php.png" alt="PHP logo">
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/mysql.png" alt="MySQL logo">
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/git.png" alt="git logo">
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/C.png" alt="C programming language logo">
+                        <p>C</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/python.png" alt="Python logo">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/java.png" alt="Java programming language logo">
+                        <p>Java</p>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
+                    <div class="skill-item">
+                        <img src="assets/ps.png" alt="Photoshop logo">
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/affinityP.png" alt="Affinity Publisher logo">
+                        <p>Affinity Publisher</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/canva.png" alt="Canva logo">
+                        <p>Canva</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/Lunacy.png" alt="Lunacy logo">
+                        <p>Lunacy</p>
+                    </div>
+                </div>
+
+
+                <div class="skills">
+                    <h2><?php echo $TRAD["skills-h2-gestion"] ?></h2>
+                    <div class="skill-item">
+                        <img src="assets/odoo.png" alt="Odoo logo">
+                        <p>Odoo</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/google-workspace.png" alt="Google Workspace logo">
+                        <p>Google Workspace</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/amazon-workdocs.png" alt="Amazon logo">
+                        <p>Amazon WorkDocs</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/OneNote.png" alt="Microsoft OneNote logo">
+                        <p>Microsoft OneNote</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/Notion.png" alt="Notion logo">
+                        <p>Notion</p>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <h2><?php echo $TRAD["skills-h2-other"] ?></h2>
+                    <div class="skill-item">
+                        <img src="assets/wordpress.png" alt="WordPress logo">
+                        <p>WordPress</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/OBS.png" alt="OBS logo">
+                        <p>Open Broadcaster Software</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/capcut.png" alt="CapCut logo">
+                        <p>CapCut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
