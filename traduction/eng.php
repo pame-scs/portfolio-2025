@@ -15,6 +15,8 @@ $translations = [
     "skills-h2-dev" => "Development",
     "skills-h2-design" => "Design",
     "skills-h2-gestion" => "Management",
-    "skills-h2-other" => "Others"
+    "skills-h2-other" => "Others",
+    /* -------------------------------- Timeline -------------------------------- */
+    "timeline-h1" => "Timeline",
 ];
 ?>

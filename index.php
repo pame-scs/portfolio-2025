@@ -30,9 +30,9 @@
         <div id="skills">
             <h1><?php echo $TRAD["skills-h1"] ?></h1>
             <div class="skills-container">
-
+                <h2><?php echo $TRAD["skills-h2-dev"] ?></h2>
                 <div class="skills">
-                    <h2><?php echo $TRAD["skills-h2-dev"] ?></h2>
+
                     <div class="skill-item">
                         <img src="assets/html5.png" alt="HTML5 logo">
                         <p>HTML5</p>
@@ -70,9 +70,8 @@
                         <p>Java</p>
                     </div>
                 </div>
-
+                <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
                 <div class="skills">
-                    <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
                     <div class="skill-item">
                         <img src="assets/ps.png" alt="Photoshop logo">
                         <p>Photoshop</p>
@@ -90,10 +89,9 @@
                         <p>Lunacy</p>
                     </div>
                 </div>
-
-
+                <h2><?php echo $TRAD["skills-h2-gestion"] ?></h2>
                 <div class="skills">
-                    <h2><?php echo $TRAD["skills-h2-gestion"] ?></h2>
+
                     <div class="skill-item">
                         <img src="assets/odoo.png" alt="Odoo logo">
                         <p>Odoo</p>
@@ -115,9 +113,9 @@
                         <p>Notion</p>
                     </div>
                 </div>
-
+                <h2><?php echo $TRAD["skills-h2-other"] ?></h2>
                 <div class="skills">
-                    <h2><?php echo $TRAD["skills-h2-other"] ?></h2>
+
                     <div class="skill-item">
                         <img src="assets/wordpress.png" alt="WordPress logo">
                         <p>WordPress</p>
@@ -132,6 +130,29 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="timeline">
+            <h1><?php echo $TRAD["timeline-h1"] ?></h1>
+            <ul>
+                <li>2021</li>
+                <ul>
+                    <li>Bac</li>
+                    <li>Math Info</li>
+                    <li>Touch Tech</li>
+                </ul>
+                <li>2022</li>
+                <ul>
+                    <li>AIUS</li>
+                    <li>Math Info</li>
+                    <li>Touch Tech</li>
+                </ul>
+                <li>2023</li>
+                <ul>
+                    <li>AIUS</li>
+                    <li>Math Info</li>
+                    <li>Touch Tech</li>
+                </ul>
+            </ul>
         </div>
     </main>
 </body>

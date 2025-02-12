@@ -13,8 +13,10 @@ $translations = [
     /* --------------------------------- Skills --------------------------------- */
     "skills-h1" => "Compétences",
     "skills-h2-dev" => "Développement",
-    "skills-h2-design" => "Design",,
+    "skills-h2-design" => "Design",
     "skills-h2-gestion" => "Gestion",
-    "skills-h2-other" => "Autres"
+    "skills-h2-other" => "Autres",
+    /* -------------------------------- Timeline -------------------------------- */
+    "timeline-h1" => "Parcours",
 ];
 ?>
