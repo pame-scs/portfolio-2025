@@ -25,12 +25,13 @@
                 <a href="" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
                 <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
             </section>
-            <img src="assets/me-paris.jpg" alt="Pamela Castaneda smiling and posing in a street in Paris">
+            <div class="landing-img"></div>
+            </div>
         </div>
         <div id="skills">
             <h1><?php echo $TRAD["skills-h1"] ?></h1>
             <div class="skills-container">
-                <h2><?php echo $TRAD["skills-h2-dev"] ?></h2>
+                <h2>🟆<?php echo $TRAD["skills-h2-dev"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
@@ -70,7 +71,7 @@
                         <p>Java</p>
                     </div>
                 </div>
-                <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
+                <h2>🟆<?php echo $TRAD["skills-h2-design"] ?></h2>
                 <div class="skills">
                     <div class="skill-item">
                         <img src="assets/ps.png" alt="Photoshop logo">
@@ -89,7 +90,7 @@
                         <p>Lunacy</p>
                     </div>
                 </div>
-                <h2><?php echo $TRAD["skills-h2-gestion"] ?></h2>
+                <h2>🟆<?php echo $TRAD["skills-h2-gestion"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
@@ -113,7 +114,7 @@
                         <p>Notion</p>
                     </div>
                 </div>
-                <h2><?php echo $TRAD["skills-h2-other"] ?></h2>
+                <h2>🟆<?php echo $TRAD["skills-h2-other"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
