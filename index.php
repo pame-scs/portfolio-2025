@@ -180,5 +180,6 @@
 
         </div>
     </main>
+    <?php include "php/footer.php" ?>
     <script src="script.js"></script>
 </body>

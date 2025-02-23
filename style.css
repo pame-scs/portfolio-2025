@@ -371,5 +371,27 @@ nav .menu-icon {
         font-size: 20px;
     }
 
-    
+
 }
+
+/* --------------------------------- Contact -------------------------------- */
+
+.footer-content {
+    background-color: #020e18;
+    color: #fbfbfb;
+    padding: 2em 8em 2em 8em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.socials a {
+    color: #fbfbfb;
+    padding: 0.5em;
+}
+
+.copyright {
+    color: #fbfbfb;
+    font-size: small;
+    margin-top: 2em;
+}
+
