@@ -31,50 +31,41 @@ a {
 
 /* --------------------------------- header --------------------------------- */
 nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    width: 100%;
-    border-style: none none solid none;
-    border-color: #020e18;
-    border-width: 2px;
-    border-radius: 0 0 2em 2em;
-    position: fixed;
-    top: 0;
+    padding: 0.5em 8em;
     background-color: #fbfbfb;
-    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    text-align: center;
-    color: #020e18;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 0.4em 3.5em;
+nav img {
+    width: 75px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 1em;
+}
+
+.nav-a ul li{
+    background-color: #fbfbfb;
 }
 
 .traduction {
-    background-color: #020e18;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-column: 1 / -1;
-    padding: 0em;
-}
-
-.traduction a {
-    text-decoration: none;
-    color: #fbfbfb;
-    font-size: 16px;
-}
-
-.traduction a.active {
-    background-color: #fbfbfb;
-    color: #020e18;
-    border-radius: 4em 4em 0em 0em;
+    
+    a{
+        background-color: #020e18;
+        color: #fbfbfb;
+        border-radius: 2em;
+        padding: 0.5em 1em;
+        font-size: small;
+    }
 }
 
 /* --------------------------------- Landing -------------------------------- */
@@ -198,7 +189,7 @@ nav a {
     padding: 1.5em ;
 }
 
-ul {
+#timeline ul {
     font-family: "Open Sans", serif;
     list-style-type: none;
     padding-left: 1em;
@@ -208,12 +199,12 @@ ul {
     align-items: center;
 }
 
-ul ul {
+#timeline ul ul {
     margin-left: 1em;
     border-left: #020e18 solid 2px;
 }
 
-ul ul li{
+#timeline ul ul li{
     padding: 1em;
     border-radius: 2em;
     background-color: #fbfbfb;
@@ -223,7 +214,7 @@ ul ul li{
     align-items: center;
 }
 
-ul li {
+#timeline ul li {
     padding: 0.5em 4em;
     border-radius: 2em;
     background-color: #020e18;
