@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamela Castaneda</title>
+    <title>Pamela Castaneda Portfolio</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
         <div id="skills">
             <h1><?php echo $TRAD["skills-h1"] ?></h1>
             <div class="skills-container">
-                <h2>🟆<?php echo $TRAD["skills-h2-dev"] ?></h2>
+                <h2><?php echo $TRAD["skills-h2-dev"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
@@ -72,7 +73,7 @@
                         <p>Java</p>
                     </div>
                 </div>
-                <h2>🟆<?php echo $TRAD["skills-h2-design"] ?></h2>
+                <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
                 <div class="skills">
                     <div class="skill-item">
                         <img src="assets/ps.png" alt="Photoshop logo">
@@ -91,7 +92,7 @@
                         <p>Lunacy</p>
                     </div>
                 </div>
-                <h2>🟆<?php echo $TRAD["skills-h2-gestion"] ?></h2>
+                <h2><?php echo $TRAD["skills-h2-gestion"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
@@ -115,7 +116,7 @@
                         <p>Notion</p>
                     </div>
                 </div>
-                <h2>🟆<?php echo $TRAD["skills-h2-other"] ?></h2>
+                <h2><?php echo $TRAD["skills-h2-other"] ?></h2>
                 <div class="skills">
 
                     <div class="skill-item">
@@ -135,26 +136,48 @@
         </div>
         <div id="timeline">
             <h1><?php echo $TRAD["timeline-h1"] ?></h1>
-            <ul>
-                <li>2021</li>
-                <ul>
-                    <li>Bac</li>
-                    <li>Math Info</li>
-                    <li>Touch Tech</li>
-                </ul>
-                <li>2022</li>
-                <ul>
-                    <li>AIUS</li>
-                    <li>Math Info</li>
-                    <li>Touch Tech</li>
-                </ul>
-                <li>2023</li>
-                <ul>
-                    <li>AIUS</li>
-                    <li>Math Info</li>
-                    <li>Touch Tech</li>
-                </ul>
-            </ul>
+            <h2>2021</h2>
+
+            <div class="year-desc">
+                <h3><?php echo $TRAD["bac-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["bac-location"] ?></p>
+                </address>
+                <h3><?php echo $TRAD["licence-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["licence-location"] ?></p>
+                </address>
+            </div>
+            <h2>2022</h2>
+            <div class="year-desc">
+                <h3><?php echo $TRAD["adem-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["adem-location"] ?></p>
+                </address>
+                <h3><?php echo $TRAD["touch-tech-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["touch-tech-location"] ?></p>
+                </address>
+            </div>
+            <h2>2023</h2>
+            <div class="year-desc">
+                <h3><?php echo $TRAD["aius-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["aius-location"] ?></p>
+                </address>
+            </div>
+            <h2>2024</h2>
+            <div class="year-desc">
+                <h3><?php echo $TRAD["lp-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["lp-location"] ?></p>
+                </address>
+                <h3><?php echo $TRAD["studio-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["studio-location"] ?></p>
+                </address>
+            </div>
+
         </div>
     </main>
     <script src="script.js"></script>

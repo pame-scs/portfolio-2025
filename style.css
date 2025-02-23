@@ -103,7 +103,7 @@ nav ul li {
     }
 
     nav ul.nav-a li {
-        list-style: "🟆";
+        list-style: none;
         padding: 0.5em;
     }
 
@@ -211,11 +211,11 @@ nav .menu-icon {
     }
 
     #landing h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #landing p {
-        font-size: 12px;
+        font-size: 14x;
     }
 
     .landing-buttons {
@@ -225,7 +225,7 @@ nav .menu-icon {
         justify-content: center;
         align-items: center;
         margin: 1em 0;
-        font-size: 12px;
+        font-size: 14px;
 
     }
 }
@@ -251,14 +251,14 @@ nav .menu-icon {
 .skills-container {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 0.5em;
 }
 
 .skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2em;
+    gap: 0.5em;
 }
 
 .skill-item {
@@ -314,47 +314,62 @@ nav .menu-icon {
 
 /* -------------------------------- Timeline -------------------------------- */
 #timeline {
-    padding: 10em 8em 0 8em;
+    padding: 2em 8em 0 8em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 #timeline h1 {
+    grid-column: 1 / span 2;
     font-size: 50px;
     margin: 0;
     text-align: center;
-    padding: 1.5em ;
+    padding: 1.5em 0;
 }
 
-#timeline ul {
-    font-family: "Open Sans", serif;
-    list-style-type: none;
+#timeline h2{
+    grid-column: 1;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 1em;
+    padding: 0;
+}
+
+#timeline .year-desc {
+    grid-column: 2;
+    border-left: #000 solid 2px;
     padding-left: 1em;
-    font-size: large;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: auto 0 1em 0;
 }
 
-#timeline ul ul {
-    margin-left: 1em;
-    border-left: #020e18 solid 2px;
+#timeline .year-desc h3 {
+    margin: 0;
+    font-family: "Montserrat", serif;
 }
 
-#timeline ul ul li{
-    padding: 1em;
-    border-radius: 2em;
-    background-color: #fbfbfb;
-    color: #020e18;
-    margin: 0.5em;
-    display: flex;
-    align-items: center;
+#timeline .year-desc p {
+    margin-top: 0;
+    color:  rgb(61, 61, 61);
+    font-family: "Open Sans", serif;
+
 }
 
-#timeline ul li {
-    padding: 0.5em 4em;
-    border-radius: 2em;
-    background-color: #020e18;
-    color: #fbfbfb;
-    margin: 0.5em;
-    display: flex;
-    align-items: center;
+@media (max-width: 768px) {
+    #timeline {
+        padding: 1em 2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #timeline h1 {
+        font-size: 30px;
+    }
+
+    #timeline h2 {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    
 }

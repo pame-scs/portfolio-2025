@@ -18,6 +18,21 @@ $translations = [
     "skills-h2-other" => "Otros",
     /* -------------------------------- Timeline -------------------------------- */
     "timeline-h1" => "Cronología",
+    "bac-h3" => "Bachillerato: Especialidades Matemáticas y Humanidades, Filosofía y Literatura",
+    "bac-location" => "Liceo Francés de San Salvador, El Salvador",
+    "licence-h3" => "Licenciatura en Informática",
+    "licence-location" => "Universidad de Estrasburgo, Francia",
+    "adem-h3" => "Encargada de misión local - ADEM",
+    "adem-location" => "Amicale des Étudiant·e·s en Mathématiques (ADEM), Estrasburgo, Francia",
+    "touch-tech-h3" => "Community Manager - Touch Tech",
+    "touch-tech-location" => "Touch Tech, El Salvador - A distancia",
+    "aius-h3" => "Responsable de Comunicación - AIUS",
+    "aius-location" => "Association des Informaticien·ne·s de l'Université de Strasbourg, Francia",
+    "lp-h3" => "Licenciatura Professional - Estrategias de la comunicación y de la información digital",
+    "lp-location" => "IUT Robert Schuman, Illkirch, Francia",
+    "studio-h3" => "Pasantía en Comunicación - Studio Lab'Ut",
+    "studio-location" => "Studio Lab'Ut, Estrasburgo, Francia",
+
 
 ];
 ?>
