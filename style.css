@@ -395,3 +395,18 @@ nav .menu-icon {
     margin-top: 2em;
 }
 
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 1em 2em;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .socials a {
+        padding: 0.5em;
+    }
+}
