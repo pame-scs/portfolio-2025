@@ -203,11 +203,11 @@ nav .menu-icon {
     #landing {
         display: flex;
         flex-direction: column;
-        padding: 5em 2em;
+        padding: 3em 2em;
     }
 
     #landing h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #landing h2 {
@@ -215,14 +215,17 @@ nav .menu-icon {
     }
 
     #landing p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    .landing-button1 {
+    .landing-buttons {
         display: flex;
+        gap: 1em;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 1em 0;
+        font-size: 12px;
 
     }
 }
@@ -276,6 +279,37 @@ nav .menu-icon {
     font-size: 16px;
     color: #020e18;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    #skills {
+        padding: 1em 2em;
+    }
+
+    #skills h1 {
+        font-size: 30px;
+    }
+
+    #skills h2{
+        font-size: 20px;
+    }
+
+    .skills {
+        gap: 1em;
+    }
+
+    .skill-item {
+        width: 100px;
+    }
+
+    .skill-item img {
+        width: 40px;
+    }
+
+    .skill-item p {
+        font-size: 14px;
+    }
 }
 
 /* -------------------------------- Timeline -------------------------------- */
