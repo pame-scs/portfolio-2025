@@ -5,6 +5,11 @@ body{
     background-color: #fbfbfb;
     padding: 0.5em 8em;
 }
+@media (max-width: 768px) {
+    body{
+        padding: 0.5em 2em;
+    }
+}
 
 h1, h3, h4, h5, h6 {
     font-family: "Montserrat", serif;
@@ -53,6 +58,7 @@ nav ul {
 }
 
 nav ul li {
+    
     padding: 0 1em;
 }
 
@@ -68,6 +74,66 @@ nav ul li {
         border-radius: 2em;
         padding: 0.5em 1em;
         font-size: small;
+    }
+}
+@media (max-width: 768px) {
+    nav ul.nav-a {
+        background-color: #fbfbfb;
+        display: none;
+        border-radius: 2em;
+        padding-right: 1em;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.traduction {
+        display: none;
+        border-radius: 2em;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+
+    nav ul.traduction  li{
+       padding: 0.5em;
+       text-align: right;
+    }
+
+    nav ul.nav-a li {
+        list-style: "🟆";
+        padding: 0.5em;
+    }
+
+    nav ul.nav-a.show {
+        display: flex;
+    }
+
+    nav ul.traduction.show {
+        display: flex;
+    }
+
+    nav .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav .menu-icon img {
+        width: 30px;
+    }
+}
+
+/* Hide menu icons by default */
+nav .menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    nav .menu-icon {
+        display: block;
+        padding: 1em;
     }
 }
 
