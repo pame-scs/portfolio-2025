@@ -22,11 +22,12 @@
                 <h1>Pamela Castaneda</h1>
                 <h2><?php echo $TRAD["job"] ?></h2>
                 <p><?php echo $TRAD["about"] ?></p>
-                <a href="" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
-                <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
+                <div class="landing-buttons">
+                    <a href="" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
+                    <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
+                </div>
             </section>
             <div class="landing-img"></div>
-            </div>
         </div>
         <div id="skills">
             <h1><?php echo $TRAD["skills-h1"] ?></h1>

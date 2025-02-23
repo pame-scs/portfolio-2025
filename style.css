@@ -199,6 +199,34 @@ nav .menu-icon {
     padding: 0em 0 1.5em 0;
 }
 
+@media (max-width: 768px) {
+    #landing {
+        display: flex;
+        flex-direction: column;
+        padding: 5em 2em;
+    }
+
+    #landing h1 {
+        font-size: 40px;
+    }
+
+    #landing h2 {
+        font-size: 16px;
+    }
+
+    #landing p {
+        font-size: 14px;
+    }
+
+    .landing-button1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+
+    }
+}
+
 /* ---------------------------------- Skils --------------------------------- */
 
 #skills {
