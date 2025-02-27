@@ -131,6 +131,14 @@
                         <img src="assets/capcut.png" alt="CapCut logo">
                         <p>CapCut</p>
                     </div>
+                    <div class="skill-item">
+                    <img src="assets/overleaf.jpg" alt="Overleaf logo">
+                        <p>Overleaf</p>
+                    </div>
+                    <div>
+                        <img src="assets/latex-logo.png" alt="LaTeX logo" style="width:50px">
+                        <p>LaTeX</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,6 +185,71 @@
                     <p><?php echo $TRAD["studio-location"] ?></p>
                 </address>
             </div>
+
+        </div>
+        <div id="Projects">
+            <h1><?php echo $TRAD["project-h1"] ?></h1>
+            <div class="project-container">
+                <article class="project">
+                    <header class="project-desc">
+                        <h2>Website Portfolio</h2>
+                        <p>This website is coded by myself with just pure code</p>
+                        <h2><?php echo $TRAD["skills"] ?></h2>
+                        <div class="skills">
+                            <div class="skill-item">
+                                <img src="assets/html5.png" alt="HTML5 logo">
+                                <p>HTML5</p>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/css3.png" alt="CSS3 logo">
+                                <p>CSS3</p>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/js.png" alt="JavaScript logo">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/php.png" alt="PHP logo">
+                                <p>PHP</p>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/Lunacy.png" alt="Lunacy logo">
+                                <p>Lunacy</p>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/git.png" alt="git logo">
+                                <p>Git</p>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <a href="projects/project-portfolio.php">Learn about this project
+                                <img src="assets/arrow.png" alt="arrow">
+                            </a>
+                        </figcaption>
+
+                </article>
+                <article class="project">
+                    <header class="project-desc">
+                        <h2>Touch Tech</h2>
+                        <p>This website is coded by myself with just pure code</p>
+                        <figcaption>
+                            <a href="projects/project-portfolio.php">Learn about this project
+                                <img src="assets/arrow.png" alt="arrow">
+                            </a>
+                        </figcaption>
+                </article>
+                <article class="project">
+                    <header class="project-desc">
+                        <h2>AIUS</h2>
+                        <p>This website is coded by myself with just pure code</p>
+                        <figcaption>
+                            <a href="projects/project-portfolio.php">Learn about this project
+                                <img src="assets/arrow.png" alt="arrow">
+                            </a>
+                        </figcaption>
+                </article>
+            </div>
+        </div>
 
         </div>
     </main>

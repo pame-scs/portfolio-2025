@@ -32,6 +32,8 @@ $translations = [
     "lp-location" => "IUT Robert Schuman, Illkirch, Francia",
     "studio-h3" => "Pasantía en Comunicación - Studio Lab'Ut",
     "studio-location" => "Studio Lab'Ut, Estrasburgo, Francia",
+    /* -------------------------------- Projects -------------------------------- */
+    "project-h1" => "Proyectos",
 
 
 ];
