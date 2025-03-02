@@ -142,6 +142,7 @@ nav .menu-icon {
 #landing {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
     padding: 10em 8em 3em 8em;
 }
 
@@ -447,4 +448,48 @@ nav .menu-icon {
     border-top: #020e18 solid 2px;
     margin-top: 0.5em;
     padding-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    #Projects {
+        padding: 1em 2em;
+    }
+
+    #Projects h1 {
+        font-size: 30px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        padding: 1em;
+    }
+}
+
+/* ------------------------------ Project Page ------------------------------ */
+
+.project-page {
+    padding: 2em 8em 2em 8em;
+}
+
+.project-page h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.project-page h2{
+    text-align: center;
+}
+
+.project-page article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0em 2em;
+    text-align: center;
+    border-top: #020e18 solid 2px;
+    border-bottom: #020e18 solid 2px;   
 }
