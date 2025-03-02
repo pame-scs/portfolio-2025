@@ -32,12 +32,14 @@ $translations = [
     "lp-location" => "IUT Robert Schuman, Illkirch, France",
     "studio-h3" => "Stage en Communication - Studio Lab'Ut",
     "studio-location" => "Studio Lab'Ut, Strasbourg, France",
-    /* -------------------------------- Projects -------------------------------- */
+    /* -------------------------------- Projects Portfolio -------------------------------- */
     "project-h1" => "Projets",
     "project-page-desc-h2" => "Description du projet",
     "portfolio-project-desc" => "Ce projet porte sur la création d'un site web à la fois fonctionnel et accessible. Le design minimaliste, conçu avec Lunacy, a été développé à l'aide de technologies telles que HTML, CSS, PHP, et JavaScript. L'objectif principal était de garantir l’accessibilité à un large public, en intégrant un module de traduction en PHP pour permettre une utilisation multilingue. Le processus de gestion de version a été optimisé via GitHub. Ce projet témoigne de ma capacité à concevoir des solutions web efficaces, user-friendly et optimisées pour un public diversifié. Vous pouvez consulter le projet sur mon",
     "used-tech" => "Technologies utilisées",
-    "galery" => "Galerie"
+    "galery" => "Galerie",
+    /* --------------------------- Project Touch Tech --------------------------- */
+    "touchtech-project-desc" => "Touch Tech est une entreprise B2B qui propose des services dans le cloud et de l'externalisation. J'ai commencé à travailler avec eux en 2021, où j'étais en charge de la communication à travers des plateformes telles que LinkedIn, Instagram et Facebook. De plus, j'ai eu l'opportunité d'apprendre à utiliser Odoo en tant qu'employée pour gérer des documents liés aux ressources humaines. Cette expérience m'a permis d'améliorer mes compétences en communication d'entreprise et de comprendre la gestion de documents au sein d'un environnement corporatif." 
 
 ];
 ?>

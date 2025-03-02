@@ -196,7 +196,7 @@
                     </article>
                     <h3>Website</h3>
                 </a>
-                <a href="\project-portfolio.php" class="project">
+                <a href="\project-touchtech.php" class="project">
                     <article class="project-touchtech p-img">
 
                     </article>

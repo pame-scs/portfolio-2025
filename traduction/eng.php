@@ -32,11 +32,13 @@ $translations = [
     "lp-location" => "IUT Robert Schuman, Illkirch, France",
     "studio-h3" => "Communication Internship - Studio Lab'Ut",
     "studio-location" => "Studio Lab'Ut, Strasbourg, France",
-    /* -------------------------------- Projects -------------------------------- */
+    /* -------------------------------- Projects Portfolio -------------------------------- */
     "project-h1" => "Projects",
     "project-page-desc-h2" => "Project description",
     "portfolio-project-desc" => "This project focuses on creating a functional and accessible website. The minimalist design, created with Lunacy, was developed using modern technologies such as HTML, CSS, PHP, and JavaScript. The main goal was to ensure accessibility for a wide audience by integrating a PHP translation module to enable multilingual use. The version control process was optimized through GitHub. This project showcases my ability to design effective, user-friendly, and optimized web solutions for a diverse audience. You can check the project on my",
     "used-tech" => "Used technologies",
-    "galery" => "Gallery"
+    "galery" => "Gallery",
+    /* --------------------------- Project Touch Tech --------------------------- */
+    "touchtech-project-desc" => "Touch Tech is a B2B company that offers cloud and outsourcing services. I started working with them in 2021, where I was in charge of communication through platforms such as LinkedIn, Instagram, and Facebook. Additionally, I had the opportunity to learn how to use Odoo as an employee to manage documents related to human resources. This experience allowed me to improve my skills in corporate communication and understand document management within a corporate environment."
 ];
 ?>
