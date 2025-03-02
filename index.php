@@ -24,7 +24,7 @@
                 <h2><?php echo $TRAD["job"] ?></h2>
                 <p><?php echo $TRAD["about"] ?></p>
                 <div class="landing-buttons">
-                    <a href="" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
+                    <a href="index.php#Projects" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
                     <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
                 </div>
             </section>
@@ -132,7 +132,7 @@
                         <p>CapCut</p>
                     </div>
                     <div class="skill-item">
-                    <img src="assets/overleaf.jpg" alt="Overleaf logo">
+                        <img src="assets/overleaf.jpg" alt="Overleaf logo">
                         <p>Overleaf</p>
                     </div>
                     <div>
@@ -190,38 +190,24 @@
         <div id="Projects">
             <h1><?php echo $TRAD["project-h1"] ?></h1>
             <div class="project-container">
-                <article class="project">
-                    <header class="project-desc">
-                        <h2>Website Portfolio</h2>
-                        <p>This website is coded by myself with just pure code</p>
-                        <h2><?php echo $TRAD["skills"] ?></h2>
-                        <figcaption>
-                            <a href="project-portfolio.php">Learn about this project
-                                <img src="assets/arrow.png" alt="arrow">
-                            </a>
-                        </figcaption>
+                <a href="\project-portfolio.php" class="project">
+                    <article class="project-portfolio">
 
-                </article>
-                <article class="project">
-                    <header class="project-desc">
-                        <h2>Touch Tech</h2>
-                        <p>This website is coded by myself with just pure code</p>
-                        <figcaption>
-                            <a href="project-portfolio.php">Learn about this project
-                                <img src="assets/arrow.png" alt="arrow">
-                            </a>
-                        </figcaption>
-                </article>
-                <article class="project">
-                    <header class="project-desc">
-                        <h2>AIUS</h2>
-                        <p>This website is coded by myself with just pure code</p>
-                        <figcaption>
-                            <a href="project-portfolio.php">Learn about this project
-                                <img src="assets/arrow.png" alt="arrow">
-                            </a>
-                        </figcaption>
-                </article>
+                    </article>
+                    <h3>Website</h3>
+                </a>
+                <a href="\project-portfolio.php" class="project">
+                    <article class="project-portfolio">
+
+                    </article>
+                    <h3>Website</h3>
+                </a>
+                <a href="\project-portfolio.php" class="project">
+                    <article class="project-portfolio">
+
+                    </article>
+                    <h3>Website</h3>
+                </a>
             </div>
         </div>
 

@@ -34,5 +34,9 @@ $translations = [
     "studio-location" => "Studio Lab'Ut, Strasbourg, France",
     /* -------------------------------- Projects -------------------------------- */
     "project-h1" => "Projects",
+    "project-page-desc-h2" => "Project description",
+    "portfolio-project-desc" => "This project focuses on creating a functional and accessible website. The minimalist design, created with Lunacy, was developed using modern technologies such as HTML, CSS, PHP, and JavaScript. The main goal was to ensure accessibility for a wide audience by integrating a PHP translation module to enable multilingual use. The version control process was optimized through GitHub. This project showcases my ability to design effective, user-friendly, and optimized web solutions for a diverse audience. You can check the project on my",
+    "used-tech" => "Used technologies",
+    "galery" => "Gallery"
 ];
 ?>

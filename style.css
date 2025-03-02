@@ -431,24 +431,31 @@ nav .menu-icon {
     gap: 1em;
 }
 
-.project{
-    border: #020e18 solid 2px;
+.project {
     border-radius: 2em;
     padding: 1em;
-}
-
-.project img {
-    width: 20px;
-    margin-left: 0.5em;
-}
-
-.project-desc figcaption {
-    margin: 0;
+    border: #020e18 solid 2px;
     text-align: center;
-    border-top: #020e18 solid 2px;
-    margin-top: 0.5em;
-    padding-top: 0.5em;
 }
+
+.project-portfolio {
+    background-image: url(assets/project-1/project-structure.PNG);
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Make the width responsive */
+    padding-top: 45%; /* Maintain aspect ratio for a horizontal rectangle */
+    border-radius: 1.5em;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.project:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
 
 @media (max-width: 768px) {
     #Projects {
@@ -485,11 +492,18 @@ nav .menu-icon {
     text-align: center;
 }
 
-.project-page article{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0em 2em;
-    text-align: center;
+.project-page section{
+    padding: 2em 2em;
     border-top: #020e18 solid 2px;
-    border-bottom: #020e18 solid 2px;   
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em 2em;
+    img{
+        width: 100%;
+        border-radius: 1em;
+    }
 }

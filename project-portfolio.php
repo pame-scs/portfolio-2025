@@ -18,22 +18,12 @@
 <body>
     <?php include "php/nav.php" ?>
     <main class="project-page">
-        <h1>Website Portfolio</h1>
-        <article>
-            <div>
-                <h2>general info</h2>
-                <p>
-                    Categorie: Dev <br>
-                    Year: 2025
-                </p>
-            </div>
-            <div>
-                <h2>project desc</h2>
-                <p>desdedsdasfuidagjdjgndjsnflknlfkasnldkfnlkadnfladsknflkn</p>
-            </div>
-        </article>
+        <h1>Portfolio</h1>
         <section>
-            <h2>Tech</h2>
+                <p><?php echo $TRAD["portfolio-project-desc"] ?> <a href="https://github.com/pame-scs/portfolio-2025">GitHub</a></p>
+        </section>
+        <section>
+            <h2><?php echo $TRAD["used-tech"] ?></h2>
             <div class="skills">
                 <div class="skill-item">
                     <img src="assets/html5.png" alt="HTML5 logo">
@@ -62,8 +52,12 @@
             </div>
         </section>
         <section>
-            <h2>Photos</h2>
-            
+            <h2><?php echo $TRAD["galery"] ?></h2>
+            <div class="galery">
+                <img src="assets/project-1/portfolio-skecth.PNG" alt="portfolio1">
+                <img src="assets/project-1/project-code.PNG" alt="portfolio2">
+                <img src="assets/project-1/project-result.PNG" alt="portfolio2">
+            </div>
         </section>
     </main>
     <?php include "php/footer.php" ?>
