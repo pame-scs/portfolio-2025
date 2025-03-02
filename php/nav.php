@@ -9,7 +9,9 @@
         <li><a href="index.php#timeline"><?php echo $TRAD["timeline"] ?></a></li>
         <li><a href="index.php#Projects"><?php echo $TRAD["projects"] ?></a></li>
     </ul>
+    <a href="index.php#landing">
     <img src="/assets/pame.png" alt="logo: pame scs" class="logo">
+    </a>
     <div class="menu-icon traduction-menu-icon">
         <img src="/assets/trad-icon.png" alt="Translate">
     </div>
