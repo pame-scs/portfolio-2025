@@ -202,18 +202,6 @@
                     </article>
                     <h3>Touch Tech</h3>
                 </a>
-                <a href="\project-portfolio.php" class="project">
-                    <article class="project-aius p-img">
-
-                    </article>
-                    <h3>AIUS</h3>
-                </a>
-                <a href="\project-portfolio.php" class="project">
-                    <article class="project-studio p-img">
-
-                    </article>
-                    <h3>Studio Lab'Ut</h3>
-                </a>
             </div>
         </div>
 
