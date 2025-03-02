@@ -191,22 +191,28 @@
             <h1><?php echo $TRAD["project-h1"] ?></h1>
             <div class="project-container">
                 <a href="\project-portfolio.php" class="project">
-                    <article class="project-portfolio">
+                    <article class="project-portfolio p-img">
 
                     </article>
                     <h3>Website</h3>
                 </a>
                 <a href="\project-portfolio.php" class="project">
-                    <article class="project-portfolio">
+                    <article class="project-touchtech p-img">
 
                     </article>
-                    <h3>Website</h3>
+                    <h3>Touch Tech</h3>
                 </a>
                 <a href="\project-portfolio.php" class="project">
-                    <article class="project-portfolio">
+                    <article class="project-aius p-img">
 
                     </article>
-                    <h3>Website</h3>
+                    <h3>AIUS</h3>
+                </a>
+                <a href="\project-portfolio.php" class="project">
+                    <article class="project-studio p-img">
+
+                    </article>
+                    <h3>Studio Lab'Ut</h3>
                 </a>
             </div>
         </div>
