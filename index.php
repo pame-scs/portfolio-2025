@@ -25,7 +25,7 @@
                 <p><?php echo $TRAD["about"] ?></p>
                 <div class="landing-buttons">
                     <a href="index.php#Projects" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
-                    <a href="" class="landing-button2"><?php echo $TRAD["contact-button"] ?></a>
+                    <a href="https://www.linkedin.com/in/pamela-castaneda-s/" class="landing-button2">LinkedIn</a>
                 </div>
             </section>
             <div class="landing-img"></div>
@@ -71,6 +71,10 @@
                     <div class="skill-item">
                         <img src="assets/java.png" alt="Java programming language logo">
                         <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/IntelliJ.png" alt="IntelliJ logo">
+                        <p>IntelliJ</p>
                     </div>
                 </div>
                 <h2><?php echo $TRAD["skills-h2-design"] ?></h2>
