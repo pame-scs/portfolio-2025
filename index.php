@@ -218,6 +218,12 @@
                     </article>
                     <h3>STUDIO LAB'UT com</h3>
                 </a>
+                <a href="\project-spacegame.php" class="project">
+                    <article class="project-spacegame p-img">
+
+                    </article>
+                    <h3>My new solar system</h3>
+                </a>
             </div>
         </div>
 

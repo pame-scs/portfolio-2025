@@ -18,9 +18,9 @@
 <body>
     <?php include "php/nav.php" ?>
     <main class="project-page">
-        <h1>Portfolio</h1>
+        <h1>My new solar system</h1>
         <section>
-                <p><?php echo $TRAD["portfolio-project-desc"] ?></p>
+                <p><?php echo $TRAD["game-project-desc"] ?></p>
         </section>
         <section>
             <h2><?php echo $TRAD["used-tech"] ?></h2>
@@ -34,29 +34,17 @@
                     <p>Java</p>
                 </div>
                 <div class="skill-item">
-                    <img src="assets/js.png" alt="JavaScript logo">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill-item">
-                    <img src="assets/php.png" alt="PHP logo">
-                    <p>PHP</p>
-                </div>
-                <div class="skill-item">
-                    <img src="assets/Lunacy.png" alt="Lunacy logo">
-                    <p>Lunacy</p>
-                </div>
-                <div class="skill-item">
-                    <img src="assets/git.png" alt="git logo">
-                    <p>Git</p>
+                    <img src="assets/canva.png" alt="Canva logo">
+                    <p>Canva</p>
                 </div>
             </div>
         </section>
         <section>
             <h2><?php echo $TRAD["galery"] ?></h2>
             <div class="galery">
-                <img src="assets/project-1/portfolio-skecth.PNG" alt="portfolio1">
-                <img src="assets/project-1/project-code.PNG" alt="portfolio2">
-                <img src="assets/project-1/project-result.PNG" alt="portfolio2">
+                <img src="assets/project-5/game-1.png" alt="game1">
+                <img src="assets/project-5/game-2.png" alt="game2">
+                <img src="assets/project-5/game-3.png" alt="game3">
             </div>
         </section>
     </main>

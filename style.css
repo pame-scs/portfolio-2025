@@ -454,6 +454,10 @@ nav .menu-icon {
     background-image: url(assets/project-3/site-web-1.png);
 }
 
+.project-spacegame{
+    background-image: url(assets/project-5/game-1.png);
+}
+
 .p-img {
     background-size: cover;
     background-position: center;
