@@ -224,6 +224,12 @@
                     </article>
                     <h3>My new solar system</h3>
                 </a>
+                <a href="\project-memoire.php" class="project">
+                    <article class="project-memoire p-img">
+
+                    </article>
+                    <h3><?php echo $TRAD["memoire-title"] ?></h3>
+                </a>
             </div>
         </div>
 

@@ -45,8 +45,19 @@ $translations = [
     /* ------------------------------- Com Studio ------------------------------- */
     "com-studio-project-desc" => "During my internship at STUDIO LAB'UT, a space dedicated to sound creation and artistic training, I developed a digital communication strategy on Instagram, Facebook, and LinkedIn. I implemented an editorial line consistent with the studio's values (creativity, accessibility, excellence) and designed visuals adapted to each platform. In parallel, I developed a graphic charter to strengthen the studio's visual identity and ensure better recognition among our target audience (students, freelancers, emerging artists).",
     /* ------------------------------- Space game ------------------------------- */
-    "game-project-desc" => "This project involved creating a simple 2D space game using Java in the IntelliJ environment. The objective is to control a star that collects planets to assemble its own solar system. The game is implemented as a turn-based system: each player action triggers movements from all entities, including hostile stars and dark matter. Levels are procedurally constructed from character grids, enabling flexible map design. The visual assets were designed using Canva. The project demonstrates object-oriented programming principles, turn-based mechanics, and level generation techniques.",
-    /* ---------------------------------- Contact --------------------------------- */
-    "contact-h1" => "Contact Me"
+    "game-project-desc" => "My New Solar System is a simple 2D space game created with Java in the IntelliJ environment. The objective is to control a star that collects planets to form its own solar system. The game has a turn-based system: each player action causes movements of all entities, in this case, hostile stars and dark matter. Levels are built from character grids, which allows flexible map design. The visual resources were designed using Canva. The project demonstrates object-oriented programming principles, turn-based mechanics, and level generation techniques.",
+    /* --------------------------------- Memoire -------------------------------- */
+    "memoire-title" => "Memoire - Professional Bachelor's degree",
+    "memoire-desc" => "During my year of Professional License in Communication Strategy and Digital Information, I developed a thesis in Information and Communication Sciences. This page presents a summary of this work, without constituting an official scientific publication.
+
+The research focuses on the growth of influence marketing and on the role of influencers' self-disclosure as a content strategy. <br><br>The main question that guided the study was: To what extent does influencers' self-disclosure on social media constitute a content strategy that allows for strengthening parasocial relationships with their audience?<br><br>
+
+The methodology employed combined a theoretical review in communication, social psychology, and marketing with a qualitative study through content analysis of four American influencers on Instagram and YouTube.
+
+The results demonstrate that self-disclosure, when perceived as sincere, favors the perception of authenticity and the construction of an identifiable image, which strengthens audience trust and loyalty. This emotional dynamic allows influencers to differentiate themselves in a saturated environment and legitimizes their commercial recommendations, in addition to adapting to algorithmic logics that privilege content with strong emotional charge.
+
+However, it is important to highlight that parasocial relationships are common phenomena and not necessarily negative, and that self-disclosure, although powerful, does not constitute a guarantee of success by itself.
+
+Among future research perspectives stands out the need to deepen the audience's point of view and their level of algorithmic literacy, in order to better understand how digital experiences are configured."
 ];
 ?>
