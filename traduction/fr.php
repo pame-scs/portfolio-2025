@@ -6,7 +6,7 @@ $translations = [
     "timeline" => "Parcours",
     "projects" => "Projets",
     /* --------------------------------- Landing -------------------------------- */
-    "job" => "Étudiante | Développeuse web | Community manager",
+    "job" => "Étudiante en Sciences Cognitives pour l'Entreprise | Développeuse web | Community manager",
     "about" => "Bonjour! Je suis Pamela et grâce à mes compétences en design, développement web et gestion de projet, je crée des expériences attractives et impactantes dans le monde numérique. Je suis toujours prête pour le prochain défi : explorez mon parcours et mes réalisations !",
     "project-button" => "Découvrir mes projets",
     "contact-button" => "Me contacter",
@@ -32,6 +32,8 @@ $translations = [
     "lp-location" => "IUT Robert Schuman, Illkirch, France",
     "studio-h3" => "Stage en Communication - Studio Lab'Ut",
     "studio-location" => "Studio Lab'Ut, Strasbourg, France",
+    "master-h3" => "Master en Sciences Cognitives pour l'Entreprise",
+    "master-location" => "Université de Lille, France",
     /* -------------------------------- Projects Portfolio -------------------------------- */
     "project-h1" => "Projets",
     "project-page-desc-h2" => "Description du projet",

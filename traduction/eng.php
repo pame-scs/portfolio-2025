@@ -6,7 +6,7 @@ $translations = [
     "timeline" => "Timeline",
     "projects" => "Projects",
     /* --------------------------------- Landing -------------------------------- */
-    "job" => "Student | Web Developer | Community manager",
+    "job" => "Student in Cognitive Science for Business | Web Developer | Community manager",
     "about" => "Hello! I’m Pamela and through my skills in design, web development and project management, I want to create attractive and impactful experiences in the digital world. I am always ready for the next challenge: explore my journey and achievements!",
     "project-button" => "Check out my projects",
     "contact-button" => "Contact me",
@@ -32,6 +32,8 @@ $translations = [
     "lp-location" => "IUT Robert Schuman, Illkirch, France",
     "studio-h3" => "Communication Internship - Studio Lab'Ut",
     "studio-location" => "Studio Lab'Ut, Strasbourg, France",
+    "master-h3" => "Master's degree in Cognitive Science for Business",
+    "master-location" => "University of Lille, France",
     /* -------------------------------- Projects Portfolio -------------------------------- */
     "project-h1" => "Projects",
     "project-page-desc-h2" => "Project description",

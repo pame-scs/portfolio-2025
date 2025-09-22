@@ -189,7 +189,13 @@
                     <p><?php echo $TRAD["studio-location"] ?></p>
                 </address>
             </div>
-
+            <h2>2025</h2>
+            <div class="year-desc">
+                <h3><?php echo $TRAD["master-h3"] ?></h3>
+                <address>
+                    <p><?php echo $TRAD["master-location"] ?></p>
+                </address>
+            </div>
         </div>
         <div id="Projects">
             <h1><?php echo $TRAD["project-h1"] ?></h1>
@@ -222,13 +228,19 @@
                     <article class="project-spacegame p-img">
 
                     </article>
-                    <h3>My new solar system</h3>
+                    <h3>My New Solar System</h3>
                 </a>
                 <a href="\project-memoire.php" class="project">
                     <article class="project-memoire p-img">
 
                     </article>
                     <h3><?php echo $TRAD["memoire-title"] ?></h3>
+                </a>
+                <a href="\project-notioncolab.php" class="project">
+                    <article class="project-notioncolab p-img">
+
+                    </article>
+                    <h3><?php echo $TRAD["notioncolab-title"] ?></h3>
                 </a>
             </div>
         </div>
