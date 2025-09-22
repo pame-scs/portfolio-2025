@@ -34,10 +34,6 @@
                     <p>Google Workspace</p>
                 </div>
                 <div class="skill-item">
-                    <img src="assets/overleaf.jpg" alt="Overleaf logo">
-                    <p>Overleaf</p>
-                </div>
-                <div class="skill-item">
                     <img src="assets/canva.png" alt="Canva logo">
                     <p>Canva</p>
                  </div>

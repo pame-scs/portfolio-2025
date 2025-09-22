@@ -60,6 +60,8 @@ Les résultats démontrent que l'auto-divulgation, lorsqu'elle est perçue comme
 
 Cependant, il est important de souligner que les relations parasociales sont des phénomènes courants et pas nécessairement négatifs, et que l'auto-divulgation, bien que puissante, ne constitue pas à elle seule une garantie de succès.
 
-Parmi les perspectives de recherche future se détache la nécessité d'approfondir le point de vue de l'audience et son niveau d'alphabétisation algorithmique, afin de mieux comprendre comment se configurent les expériences numériques."
+Parmi les perspectives de recherche future se détache la nécessité d'approfondir le point de vue de l'audience et son niveau d'alphabétisation algorithmique, afin de mieux comprendre comment se configurent les expériences numériques.",
+"notioncolab-title"=> "Outil de travail collaboratif + guide",
+"notioncolab-desc"=> "J'ai mis en place un espace de travail Notion pour STUDIO LAB'UT, un studio de création sonore et de formation, afin de faciliter la gestion de projet et la collaboration en équipe. L'espace de travail comprend des sections pour le suivi des projets, l'attribution des tâches et le partage des ressources, permettant aux membres de l'équipe de rester organisés et informés. De plus, j'ai créé un guide utilisateur pour aider l'équipe à utiliser efficacement les fonctionnalités de Notion, garantissant une adoption fluide et maximisant la productivité. Cette mise en œuvre a amélioré la communication et le flux de travail au sein du studio, permettant une exécution de projet plus efficace.",
 ];
 ?>

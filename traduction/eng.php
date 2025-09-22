@@ -60,6 +60,8 @@ The results demonstrate that self-disclosure, when perceived as sincere, favors 
 
 However, it is important to highlight that parasocial relationships are common phenomena and not necessarily negative, and that self-disclosure, although powerful, does not constitute a guarantee of success by itself.
 
-Among future research perspectives stands out the need to deepen the audience's point of view and their level of algorithmic literacy, in order to better understand how digital experiences are configured."
+Among future research perspectives stands out the need to deepen the audience's point of view and their level of algorithmic literacy, in order to better understand how digital experiences are configured.",
+"notioncolab-title"=> "Collaborative work tool + guide",
+"notioncolab-desc"=> "I set up a Notion workspace for STUDIO LAB'UT, a sound creation and training studio, to facilitate project management and team collaboration. The workspace includes sections for project tracking, task assignments, and resource sharing, allowing team members to stay organized and informed. Additionally, I created a user guide to help the team effectively utilize Notion's features, ensuring smooth adoption and maximizing productivity. This implementation has improved communication and workflow within the studio, enabling more efficient project execution.",
 ];
 ?>
