@@ -6,7 +6,7 @@ $translations = [
     "timeline" => "Cronología",
     "projects" => "Proyectos",
     /* --------------------------------- Landing -------------------------------- */
-    "job" => "Estudiante en Ciencias Cognitivas para la Empresa | Desarrolladora web | Community manager",
+    "job" => "Estudiante en Ciencias Cognitivas para la Empresa | Community manager",
     "about" => "Hola! Soy Pamela y a través de mis habilidades en diseño, desarrollo web y gestión de proyectos, creo experiencias atractivas e impactantes en el mundo digital. Siempre estoy lista para el próximo desafío: ¡explora mi viaje y mis logros!",
     "project-button" => "Descubre mis proyectos",
     "contact-button" => "Contáctame",
