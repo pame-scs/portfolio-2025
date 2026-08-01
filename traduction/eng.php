@@ -6,8 +6,9 @@ $translations = [
     "timeline" => "Timeline",
     "projects" => "Projects",
     /* --------------------------------- Landing -------------------------------- */
-    "job" => "Student in Cognitive Science for Business | Community manager",
-    "about" => "Hello! I’m Pamela and through my skills in design, web development and project management, I want to create attractive and impactful experiences in the digital world. I am always ready for the next challenge: explore my journey and achievements!",
+    "job" => "Master in Cognitive Science | UX researcher | Human Factors",
+    "about" => "Hello! I’m Pamela and I'm a Cognitive Science master's student specializing in Human-Machine Interaction, UX Research, Human Factors, and Behavioral Science. My work focuses on understanding how people interact with technology and how cognitive principles can be applied to design systems that are intuitive, trustworthy, and evidence-based.",
+    "about2" => "My current research explores automation bias, decision-making, and system design, examining how interface design and automation influence human judgment. Through experimental psychology methods, I investigate the cognitive mechanisms behind human-AI interaction to inform the design of safer and more effective decision support systems.",
     "project-button" => "Check out my projects",
     "contact-button" => "Contact me",
     /* --------------------------------- Skills --------------------------------- */

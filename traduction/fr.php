@@ -6,8 +6,9 @@ $translations = [
     "timeline" => "Parcours",
     "projects" => "Projets",
     /* --------------------------------- Landing -------------------------------- */
-    "job" => "Étudiante en Sciences Cognitives pour l'Entreprise | Community manager",
-    "about" => "Bonjour! Je suis Pamela et grâce à mes compétences en design, développement web et gestion de projet, je crée des expériences attractives et impactantes dans le monde numérique. Je suis toujours prête pour le prochain défi : explorez mon parcours et mes réalisations !",
+    "job" => "Master en Sciences Cognitives | Researcher UX | Facteurs Humains",
+    "about" => "Bonjour! Je suis Pamela et je suis étudiante en dernière année de Master en Sciences Cognitives, spécialisée en Interaction Humain-Machine (IHM), UX Research, Facteurs Humains et Sciences du Comportement. Mon travail consiste à comprendre la manière dont les individus interagissent avec les technologies et à appliquer les principes des sciences cognitives à la conception de systèmes intuitifs, fiables et fondés sur des preuves scientifiques.",
+    "about2" => "Mes recherches actuelles portent sur le biais d'automatisation (automation bias), la prise de décision et la conception des systèmes, en étudiant l'influence du design des interfaces et de l'automatisation sur le jugement humain. À travers des méthodes issues de la psychologie expérimentale, j'étudie les mécanismes cognitifs impliqués dans l'interaction entre l'humain et l'intelligence artificielle afin de concevoir des systèmes d'aide à la décision plus sûrs et plus performants.",
     "project-button" => "Découvrir mes projets",
     "contact-button" => "Me contacter",
     /* --------------------------------- Skills --------------------------------- */

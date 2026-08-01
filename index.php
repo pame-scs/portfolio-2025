@@ -23,6 +23,7 @@
                 <h1>Pamela Castaneda</h1>
                 <h2><?php echo $TRAD["job"] ?></h2>
                 <p><?php echo $TRAD["about"] ?></p>
+                <p><?php echo $TRAD["about2"] ?></p>
                 <div class="landing-buttons">
                     <a href="index.php#Projects" class="landing-button1"><?php echo $TRAD["project-button"] ?></a>
                     <a href="https://www.linkedin.com/in/pamela-castaneda-s/" class="landing-button2">LinkedIn</a>

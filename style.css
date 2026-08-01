@@ -5,7 +5,7 @@ body{
     background-color: #fbfbfb;
     padding: 0.5em 8em;
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     body{
         padding: 0.5em 2em;
     }
@@ -76,7 +76,7 @@ nav ul li {
         font-size: small;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     nav ul.nav-a {
         background-color: #fbfbfb;
         display: none;
@@ -130,7 +130,7 @@ nav .menu-icon {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     nav .menu-icon {
         display: block;
         padding: 1em;
@@ -200,7 +200,7 @@ nav .menu-icon {
     padding: 0em 0 1.5em 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #landing {
         display: flex;
         flex-direction: column;
@@ -282,7 +282,7 @@ nav .menu-icon {
     margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
 
     #skills {
         padding: 1em 2em;
@@ -356,7 +356,7 @@ nav .menu-icon {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #timeline {
         padding: 1em 2em;
         display: flex;
@@ -396,7 +396,7 @@ nav .menu-icon {
     margin-top: 2em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .footer-content {
         padding: 1em 2em;
     }
@@ -480,7 +480,9 @@ nav .menu-icon {
 
 
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1300px) {
     #Projects {
         padding: 1em 2em;
     }
@@ -531,7 +533,7 @@ nav .menu-icon {
     border-radius: 1em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .project-page {
         padding: 1em 2em;
     }
